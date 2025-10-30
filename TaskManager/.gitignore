@@ -1,0 +1,33 @@
+# Ignore build output and user-specific files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vspscc
+*.vssscc
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore npm/node artifacts
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env*
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore React build output
+frontend/build/
+frontend/dist/
+
+# Ignore lock files
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
